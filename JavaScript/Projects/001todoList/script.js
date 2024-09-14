@@ -1,22 +1,26 @@
 const items = ["Hellow"];
 let a;
 function addTodo() {
+
     let inputTask = document.getElementById('input-task');
     let showTask = document.querySelector('.todo-list');
 
     const task = inputTask.value;
-    items.push(task);
-    console.log(items);
-    
-    items.forEach((i) => {
-        a = `
-        <div class="todos">
-            <span class="tasks" onclick="completedTask();">${i}</span>
-            <button onclick="removeTask();">Delete</button>
-        </div>
-        `
-    });
 
+    if(inputTask.value === '') {
+        alert('Please Enter Some Text');
+    } else {
+        items.push(task);
+        
+        items.forEach((i) => {
+            a = `
+            <div class="todos">
+                <span class="tasks" onclick="completedTask();">${i}</span>
+                <button onclick="removeTask();">Delete</button>
+            </div>
+            `
+        });
+    }
     showTask.innerHTML += a;
     inputTask.value = "";
 }
