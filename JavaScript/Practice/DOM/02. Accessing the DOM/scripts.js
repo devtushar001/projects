@@ -6,7 +6,7 @@
 // console.dir(document.body);
 // console.log(document.documentURI);
 
-// Accessing the DOM
+//02 Accessing the DOM
 
 // ---------- DOM Selcector -------------
 
@@ -22,10 +22,19 @@
     // console.log(document.getElementsByClassName('cls-1'));
     
 // 4. querySelector
-    console.log(document.querySelector('#main'));
-    console.log(document.querySelector('.cls'));
-    console.log(document.querySelector('.cls-1'));
+    // console.log(document.querySelector('#main'));
+    // console.log(document.querySelector('.cls'));
+    // console.log(document.querySelector('.cls-1'));
     
 // 5. querySelectorAll
-
+    //  console.log(document.querySelectorAll('.cls'));
+    //  console.log(document.querySelectorAll('li'));
+     
 // Storing data in variables
+
+// const h1 = document.querySelector('h1');
+// const li = document.querySelectorAll('li');
+// console.log(li);
+
+// 03 innerText, textContent, innerHTML
+
