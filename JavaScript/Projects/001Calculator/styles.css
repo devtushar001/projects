@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    width: 350px;
+    height: auto;
+    background-color: rgba(245, 245, 245, 0.205);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 3px 4px 19px rgba(0, 0, 0, 0.152);
+    padding: 54px;
+    position: absolute;
+}
+
+body img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.container .display {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.container .display input {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 2.1rem;
+    padding: 0px 8px;
+    border: none;
+    outline: none;
+    color: #5d5d5d;
+    background-color: rgba(221, 221, 221, 0.561);
+    background-color: #ffffff24;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    margin-bottom: 15px;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.buttons .btn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px;
+    gap: 4px;
+}
+
+.buttons .btns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 4px;
+    grid-template-rows: 45px;
+}
+
+.buttons .btns button{
+    border: none;
+    margin-top: 4px;
+    cursor: pointer;
+    color: #484848;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.152);
+    background-color: #ffffff37;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+
+.buttons .btn button {
+    border: none;
+    margin-top: 4px;
+    cursor: pointer;
+    color: #484848;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.152);
+    background-color: #ffffff54;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.buttons .btn button:active,
+.buttons .btns button:active {
+    opacity: 0.75;
+}
+
+.div {
+    height: 20000px;
+    background-color: darkred;
+    position: relative;
+}
