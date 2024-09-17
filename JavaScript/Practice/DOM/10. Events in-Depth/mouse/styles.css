@@ -1,0 +1,45 @@
+* {
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.teal {
+    color: teal;
+}
+
+.steelblue {
+    color: steelblue;
+}
+
+.orange {
+    color: rgb(255, 64, 0);
+}
+
+.purple {
+    color: purple;
+}
+
+.pink {
+    color: pink;
+}
+
+.chocolate {
+    color: chocolate;
+}
+
+.aqua {
+    color: aqua;
+}
+
+.hello {
+    background-color: yellow;
+    color: darkred;
+    
+}
