@@ -5,7 +5,7 @@ let tl = gsap.timeline({
 })
 .to("h1", {
     y: -100,
-    color: "white"
+    color: "white",
 })
 .to(".box1", {
     x: -100,
