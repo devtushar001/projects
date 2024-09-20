@@ -1,11 +1,12 @@
 let tl = gsap.timeline({
     default: {
-        duration: 1,
-    },
+        duration: 3,
+    }
 })
 .to("h1", {
     y: -100,
     color: "white",
+    duration: 3,
 })
 .to(".box1", {
     x: -100,
